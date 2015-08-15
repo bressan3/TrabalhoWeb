@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <!--jQuery-->
+        <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+        <!--UitoTop-->
+        <link rel="stylesheet" media="screen,projection" href="uitotop/css/ui.totop.css" />
+        <script src="uitotop/js/easing.js" type="text/javascript"></script>
+        <script src="uitotop/js/jquery.ui.totop.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Empresa</a>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            <li class="active"><a href="contato.html">Contato</a></li></div>
+        </ul>
+    </div>
+    </div>
+</nav>
+
+    <div class="bs-docs-masthead" style="padding: 80px; background-color: #EAE9E9;">
+    <div class="container">
+        <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Contato por E-Mail
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        <div class="alert alert-warning fade in">
+            <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span></button>
+            <strong>O tempo médio de resposta dos nossos e-mails é de 2 à 5 horas após o envio.</strong>
+        </div>
+        <h1>Entre em contato conosco:</h1>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Nome">
+                </div>
+            </div>
+        <form class="form-horizontal" role="form">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+        <textarea class="form-control" rows="5" placeholder="Digite sua dúvida..."></textarea><br>
+        <a class="btn btn-primary btn-lg" href="contato.html">Enviar</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Central de Atendimento
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        Entre em contato conosco 24h por dia 7 dias por semana através do número: (123)1234-0000.
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+    
+    <div class="row">
+        <div class="container">
+            <div class="col-md-4">
+                <h2>Conheça Nossos Novos Serviços:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit eros, dignissim eu pulvinar eget, pretium vitae mi.<br>
+                <a class="btn btn-primary btn-lg" href="servicos.html">Saiba Mais</a></p>
+            </div>
+            
+            <div class="col-md-4">
+                <h2>Mantenha-se Informado:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elit eros, dignissim eu pulvinar eget, pretium vitae mi.<br><br>
+                <a class="btn btn-primary btn-lg" href="noticias.html">Saiba Mais</a></p>
+            </div>
+            
+            <div class="col-md-4" style="padding-top: 25px;">
+                <address>
+                    <strong>Empresa, Inc.</strong><br>
+                    Rua José Lourenço Kelmer, Campus Universitário - São Pedro<br>
+                    Juiz de Fora, MG 36037-000<br>
+                    (123) 1234-0000
+                </address></div>
+        </div>
+    </div>
+
+    <!-- UitoTop plugin -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $().UItoTop({ easingType: 'easeOutQuart' });  
+        });
+    </script>
+
+    <!--Bootstrap's Javascript-->
+    <script src="bootstrap/js/bootstrap.js" type="text/javascript"></script>
+
+</body>
+</html>
